@@ -1,0 +1,275 @@
+/*STYLESHEET DE PRUEBA PARA SASS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1;
+  background-color: #ABD4E2; }
+
+nav {
+  background-color: #ABD4E2;
+  padding: 1em;
+  display: block; }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    font-family: "Raleway", sans-serif; }
+  nav li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative; }
+    nav li ul {
+      display: none;
+      position: absolute; }
+  nav li:hover ul {
+    display: block; }
+  nav a {
+    text-decoration: none;
+    color: #9F2062;
+    padding: 8px;
+    font-weight: bold; }
+    nav a .active {
+      text-decoration: underline; }
+  nav a:hover {
+    background-color: rgba(243, 243, 243, 0.5); }
+
+.portada {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../imagenes/portada-azul2.jpg);
+  background-size: cover;
+  max-width: 100%;
+  padding: 40px 40px;
+  height: 18em;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.portada__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  color: #f3f3f3;
+  border-radius: 0.5em;
+  box-shadow: inset 15px 15px 30px 30px rgba(159, 32, 98, 0.8);
+  padding: 0.2em 0.7em 0.2em 0.7em; }
+
+.portada__subtitulo {
+  font-family: "Montserrat", sans-serif;
+  color: #f3f3f3;
+  border-radius: 0.5em;
+  box-shadow: inset 15px 15px 30px 30px rgba(159, 32, 98, 0.8);
+  padding: 0.2em 0.7em 0.2em 0.7em; }
+
+.button--color {
+  background-color: #ABD4E2;
+  border: 3px solid #2B7FC8; }
+
+.portada__button {
+  padding: 5px 12px;
+  text-align: center;
+  align-content: left; }
+
+.button__contenido {
+  color: #140f0f;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
+
+.slogan {
+  font-family: "Montserrat", sans-serif;
+  width: 99%; }
+
+.slogan__contenido {
+  color: #9F2062;
+  font-size: 4em;
+  text-align: center;
+  padding: 10px; }
+
+.principal {
+  display: flex;
+  flex: 1;
+  margin-top: 10px; }
+
+.trayectoria {
+  width: 33%;
+  background-color: #9F2062;
+  color: #f3f3f3;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.trayectoria__titulo--Montserrat {
+  font-family: "Montserrat", sans-serif; }
+
+.trayectoria__parrafo--Raleway {
+  font-family: "Raleway", sans-serif; }
+
+.info {
+  width: 66%;
+  background-color: #2B7FC8; }
+
+.tarjeta {
+  background-image: linear-gradient(#7ac3db, #ABD4E2);
+  margin: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #9F2062; }
+
+.tarjeta__titulo--Montserrat {
+  font-family: "Montserrat", sans-serif; }
+
+.tarjeta__parrafo--Raleway {
+  font-family: "Raleway", sans-serif; }
+
+.servicios {
+  display: flex;
+  flex: 1;
+  margin: 20px;
+  justify-content: space-evenly;
+  background-color: #ABD4E2;
+  font-family: "Raleway", sans-serif; }
+
+.servicios__item--animacion:hover {
+  transition: 1s;
+  font-size: 1.5rem; }
+
+.FAQ {
+  margin: 15px; }
+
+.FAQ__titulo {
+  padding: 15px;
+  color: #2B7FC8;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif; }
+
+.FAQ__texto {
+  color: #9F2062;
+  text-decoration: none;
+  font-weight: bold; }
+
+.pie {
+  margin-top: 15px;
+  text-align: center;
+  background-color: #9F2062; }
+
+.pie__texto--Raleway {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+  color: #f3f3f3; }
+
+.tituloPlan {
+  font-family: "Montserrat", sans-serif;
+  color: #2B7FC8;
+  font-size: 4em;
+  padding: 20px 0; }
+
+.tabla {
+  border: 3px solid;
+  width: 60%;
+  margin: 30px auto;
+  background-color: #2B7FC8; }
+
+.tabla__encabezado {
+  font-family: "Montserrat", sans-serif;
+  background-color: #9F2062;
+  color: #f3f3f3;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px; }
+
+th::selection {
+  background: #2B7FC8; }
+
+.tabla_contenido {
+  font-family: "Raleway", sans-serif;
+  background-color: #f3f3f3;
+  border: 1px solid;
+  text-align: center; }
+
+.tabla_contenido--listas {
+  list-style-type: none;
+  margin: auto;
+  padding: 5px; }
+
+.tituloAvisos {
+  font-family: "Montserrat", sans-serif;
+  color: #2B7FC8;
+  font-size: 4em;
+  padding: 20px 0; }
+
+.contenedorAvisos {
+  max-width: 80%;
+  width: 90%;
+  margin: 15px auto; }
+
+.tarjetaAvisos {
+  background-color: #f3f3f3;
+  border-color: #9F2062;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.tarjetaAvisos__img {
+  width: 300px;
+  height: 180px;
+  margin-right: 30px; }
+
+.tarjetaAvisos__titulo {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #9F2062; }
+
+.tarjetaAvisos__parrafo {
+  line-height: 28px;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  color: #2B7FC8; }
+
+.tarjetaAvisos__lista {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem; }
+
+.tituloContacto {
+  font-family: "Montserrat", sans-serif;
+  color: #2B7FC8;
+  font-size: 4em;
+  padding: 20px 0; }
+
+.formularioContacto {
+  background-color: #f3f3f3;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  border-color: #9F2062;
+  border-style: solid;
+  border-width: 3px; }
+
+.formularioContacto__titulo {
+  color: #9F2062;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  margin: 10px; }
+
+.formularioContacto__leyenda {
+  color: #2B7FC8;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 10px 0; }
+
+.formularioContacto__texto--Raleway {
+  font-family: "Raleway", sans-serif; }
+
+/*CMD ---- npm run build-css
+  CMD ---- npm run watch-css*/
