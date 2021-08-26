@@ -19,6 +19,7 @@
 
 .fontTitulo {
     font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
 }
 
 * {
@@ -164,7 +165,7 @@ nav {
     color: #9F2062;
     font-size: 4em;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
 }
 
 .principal{
@@ -189,6 +190,7 @@ nav {
 
 .trayectoria__parrafo--Raleway {
     font-family: 'Raleway', sans-serif;
+    padding: 5px;
 }
 
 .info {
@@ -205,6 +207,7 @@ nav {
 }
 
 .tarjeta__titulo--Montserrat {
+    padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -329,7 +332,8 @@ nav {
 .tituloPlan {
     font-family: "Montserrat", sans-serif;
     color: #2B7FC8;
-    font-size: 4em;
+    font-size: 3em;
+    text-align: center;
     padding: 20px 0; }
   
 .tabla {
@@ -365,6 +369,7 @@ th::selection {
     font-family: "Montserrat", sans-serif;
     color: #2B7FC8;
     font-size: 4em;
+    text-align: center;
     padding: 20px 0; }
   
 .contenedorAvisos {
@@ -417,6 +422,10 @@ th::selection {
     width: 50%;
     margin: 10px auto;
     padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     border-color: #9F2062;
     border-style: solid;
     border-width: 3px; }
@@ -435,6 +444,22 @@ th::selection {
   
 .formularioContacto__texto--Raleway {
     font-family: "Raleway", sans-serif; }
+
+.formularioContacto__etiqueta  {
+    position: relative;
+    padding: 0.625rem;
+    color: #2B7FC8;
+}   
+
+.formularioContacto__etiqueta:focus {
+    background-color: #9F2062;
+    color: #f3f3f3;
+}   
+
+.formularioContacto__button {
+    background-color: #ABD4E2;
+    border: 3px solid #2B7FC8;
+}
 
 /*404 Page not found*/
 .portada404 {

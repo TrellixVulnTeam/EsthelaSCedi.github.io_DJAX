@@ -61,16 +61,16 @@
             <fieldset class="formularioContacto__texto--Raleway">
                 <legend class="formularioContacto__leyenda">Pide una cita</legend>
                 <!--Nombre del usuario-->
-                <label for="nombre" class="etiqueta">Nombre Completo </label>
+                <label for="nombre" class="formularioContacto__etiqueta">Nombre Completo </label>
                 <input type="text" name="nombre" placeholder="Juan Hernández"><br>
                 <!--Email del usuario-->
-                <label for="email" class="etiqueta">Correo Electrónico </label>
+                <label for="email" class="formularioContacto__etiqueta">Correo Electrónico </label>
                 <input type="text" name="email" placeholder="ejemplo@correo.com"><br>
                 <!--Num. telefonico del usuario-->
-                <label for="celular" class="etiqueta">Número de telefono </label>
+                <label for="celular" class="formularioContacto__etiqueta">Número de telefono </label>
                 <input type="text" name="celular" placeholder="+528991234567"><br>
                 <!--Menu de servicio que elige el usuario-->
-                <label for="servicio_deseado" class="etiqueta">Servicio deseado</label>
+                <label for="servicio_deseado" class="formularioContacto__etiqueta">Servicio deseado</label>
                 <select name="servicio_deseado" id="">
                     <option disabled selected>Seleccione una opción</option>
                     <option value="muelas">Extracción de muelas del juicio</option>
@@ -82,14 +82,14 @@
                     <option value="otro">Otro</option>
                 </select><br>
                 <!--Area de texto-->
-                <label for="comentario" class="etiqueta">Comentarios adicionales </label><br>
+                <label for="comentario" class="formularioContacto__etiqueta">Comentarios adicionales </label><br>
                 <textarea name="comentario" placeholder="Deje su mensaje" cols="30" rows="4"></textarea><br>
                 <!--Checkbox de privacidad-->
-                <label for="privacidad" class="etiqueta">Acepto la política de pricacidad </label>
+                <label for="privacidad" class="formularioContacto__etiqueta">Acepto la política de pricacidad </label>
                 <input type="checkbox" name="privacidad"><br>
                 <!--Botones-->
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
+                <input type="reset" class="formularioContacto__button" value="Cancelar">
+                <input type="submit" class="formularioContacto__button" value="Enviar">
             </fieldset>
         </form>
     </section>
